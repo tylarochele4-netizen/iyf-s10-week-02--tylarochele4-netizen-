@@ -16,7 +16,7 @@ header {
 /* Section styling */
 .content {
     background-color: white;
-    margin: 20px;
+    margin: 40px auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -52,6 +52,6 @@ p {
 }
 
 .content {
-    max-width: 600px;
+    max-width: 900px;
     margin: 40px auto;
 }
