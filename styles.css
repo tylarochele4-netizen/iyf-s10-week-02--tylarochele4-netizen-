@@ -75,7 +75,7 @@ p {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     background-color: green
 }
 
