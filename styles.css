@@ -88,9 +88,9 @@ p {
 .footer-column {
   flex: 1;                      
   padding: 15px;
-  background-color:#444; /* slightly lighter than 
-footer */
+  background-color: white; /* change this */
   border-radius: 8px;
+  color: black;            /* so text is visible*/
 }
 
 .footer-column h3 {
