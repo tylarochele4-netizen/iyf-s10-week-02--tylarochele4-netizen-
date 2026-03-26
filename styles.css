@@ -126,3 +126,5 @@ p {
 .footer-column a:hover {
     text-decoration: underline;
     }
+
+a { color: red !important; }
