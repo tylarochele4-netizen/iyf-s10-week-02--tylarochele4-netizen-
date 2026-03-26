@@ -118,7 +118,7 @@ p {
 
 .footer-column a {
     display: block;
-    color: black;
+    color: black;             /* makes links visible */
     text-decoration: none;
     margin: 5px 0;
 }
