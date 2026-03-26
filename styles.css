@@ -77,15 +77,20 @@ p {
   display: flex;                /* makes columns horizontal */
   justify-content: space-between;
   align-items: flex-start;      /* aligns items at top */
-  gap: 20px;                    /* spacing between columns */
+  gap: 20px;                    /* this creates space between boxes*/
   background-color: #222;
   color: #fff;
   padding: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .footer-column {
-  flex: 1;                      /* equal width */
-  min-width: 150px;             /* prevents shrinking too much */
+  flex: 1;                      
+  padding: 15px;
+  background-color:#444; /* slightly lighter than 
+footer */
+  border-radius: 8px;
 }
 
 .footer-column h3 {
