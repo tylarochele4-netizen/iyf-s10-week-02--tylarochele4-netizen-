@@ -29,10 +29,12 @@ button {
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 /* Footer styling */
@@ -95,7 +97,11 @@ p {
   border-radius: 10px;
   color: black;            /* so text is visible*/
   box-shadow: 0 4px 10px rgba (0,0,0,1);
+  transition: 0.3s;
 }
+
+.footer-column:hover{
+  transform: translateY(-5px); /* lifts up */
 
 .footer-column h3 {
   margin-bottom: 10px;
@@ -125,10 +131,12 @@ p {
     color: "333;             /* makes links visible */
     text-decoration: none;
     margin: 5px 0;
+    transition: 0.3s;
 }
 
 .footer-column a:hover {
     color: "007BFF;
+    transform: translate(5px); /* moves slightly right */
     }
 
 a { 
