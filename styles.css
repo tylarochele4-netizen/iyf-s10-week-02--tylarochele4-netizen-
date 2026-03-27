@@ -43,11 +43,11 @@ button:hover {
 }
 
 .photo-section img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+    width: 150px;         /* controls size */
+    height: 150px;        /* MUST match width */
+    object-fit: cover;    /* keeps image nice inside circle */
     max-width: 600px;
-    border-radius: 50%;
+    border-radius: 50%;   /* make it a circle */
 }
 
 .photo-section img {
