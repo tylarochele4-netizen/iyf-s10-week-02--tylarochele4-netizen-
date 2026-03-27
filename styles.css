@@ -75,82 +75,65 @@ p {
 }
 
 
+}
+
+
 .footer-container {
-  display: flex;                /* makes columns horizontal */
+  display: flex;
   justify-content: space-between;
-  align-items: stretch;         /* this is the fix */
-  gap: 20px;                    /* this creates space between boxes*/
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
+  align-items: stretch;
+  gap: 20px;
   max-width: 1000px;
   margin: 40px auto;
 }
 
 .footer-column {
-  flex: 1; 
-  display:flex;
+  flex: 1;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 20px;
-  background-color: white; /* change this */
+  background-color: white;
+  color: black;
   border-radius: 10px;
-  color: black;            /* so text is visible*/
-  box-shadow: 0 4px 10px rgba (0,0,0,1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
 
-.footer-column:hover{
-  transform: translateY(-5px); /* lifts up */
+.footer-column:hover {
+  transform: translateY(-5px);
+}
 
 .footer-column h3 {
   margin-bottom: 10px;
 }
 
 .footer-column ul {
-  list-style: none;     /* removes bullets */
-  padding: 0;           /* removes left spacing */
+  list-style: none;
+  padding: 0;
   margin: 0;
-  text-align: center;   /* centers links nicely */ 
+  text-align: center;
 }
 
 .footer-column li {
-  margin-bottom: 8px 0;
+  margin: 8px 0;
 }
 
-.footer-column ul li a {
-  color: #fff;
-  text-decoration: none;
-    }
-
-.footer-column p {
-    color: black;
-    }
-
 .footer-column a {
-    display: block;
-    color: "333;             /* makes links visible */
-    text-decoration: none;
-    margin: 5px 0;
-    transition: 0.3s;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: 0.3s;
 }
 
 .footer-column a:hover {
-    color: "007BFF;
-    transform: translate(5px); /* moves slightly right */
-    }
-
-a { 
-    color: red !important; 
-    font-size: 20px;
+  color: #007BFF;
+  transform: translateX(5px);
 }
 
 .footer-bottom {
-    display: block;
-    width: 100%;
-    text-align: center;
-    color: #ccc;
-    margin-top: 30px;
-    font-size: 14px;
-}
-    
+  text-align: center;
+  color: #ccc;
+  margin-top: 30px;
+  font-size: 14px;
+    }    
