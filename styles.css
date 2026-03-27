@@ -108,13 +108,13 @@ p {
 }
 
 .footer-column ul {
-  list-style: none;
-  padding: 0;
+  list-style: none;     /* removes bullets */
+  padding: 0;           /* removes left spacing */
   margin: 0;
 }
 
 .footer-column ul li {
-  margin-bottom: 5px;
+  margin-bottom: 5px 0;
 }
 
 .footer-column ul li a {
@@ -145,9 +145,11 @@ a {
 }
 
 .footer-bottom {
+    display: block;
+    width: 100%;
     text-align: center;
     color: "ccc;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 14px;
 }
     
