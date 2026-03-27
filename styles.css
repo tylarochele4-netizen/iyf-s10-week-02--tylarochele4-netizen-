@@ -111,6 +111,7 @@ p {
   list-style: none;     /* removes bullets */
   padding: 0;           /* removes left spacing */
   margin: 0;
+  text-align: center;   /* centers links nicely */ 
 }
 
 .footer-column li {
@@ -148,7 +149,7 @@ a {
     display: block;
     width: 100%;
     text-align: center;
-    color: "ccc;
+    color: #ccc;
     margin-top: 30px;
     font-size: 14px;
 }
