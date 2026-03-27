@@ -37,6 +37,26 @@ button:hover {
     transform: scale(1.05);
 }
 
+.photo-section {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.photo-section img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.photo-section img {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.photo-section img:hover {
+    transform: scale(1.03);
+}
+
 /* Footer styling */
 footer {
     text-align: center;
