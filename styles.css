@@ -76,7 +76,7 @@ p {
 .footer-container {
   display: flex;                /* makes columns horizontal */
   justify-content: space-between;
-  align-items: flex-start;      /* aligns items at top */
+  align-items: stretch;         /* this is the fix */
   gap: 20px;                    /* this creates space between boxes*/
   background-color: #222;
   color: #fff;
@@ -86,7 +86,10 @@ p {
 }
 
 .footer-column {
-  flex: 1;                      
+  flex: 1; 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 15px;
   background-color: white; /* change this */
   border-radius: 8px;
