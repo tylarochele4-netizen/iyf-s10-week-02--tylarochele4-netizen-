@@ -38,8 +38,8 @@ button:hover {
 /* Footer styling */
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 40px 20px;
+    background-color: #222;
     color: white;
   }
 
@@ -82,7 +82,7 @@ p {
   color: #fff;
   padding: 20px;
   max-width: 1000px;
-  margin: auto;
+  margin: 40px auto;
 }
 
 .footer-column {
@@ -90,10 +90,11 @@ p {
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 15px;
+  padding: 20px;
   background-color: white; /* change this */
-  border-radius: 8px;
+  border-radius: 10px;
   color: black;            /* so text is visible*/
+  box-shadow: 0 4px 10px rgba (0,0,0,1);
 }
 
 .footer-column h3 {
@@ -121,13 +122,13 @@ p {
 
 .footer-column a {
     display: block;
-    color: black;             /* makes links visible */
+    color: "333;             /* makes links visible */
     text-decoration: none;
     margin: 5px 0;
 }
 
 .footer-column a:hover {
-    text-decoration: underline;
+    color: "007BFF;
     }
 
 a { 
